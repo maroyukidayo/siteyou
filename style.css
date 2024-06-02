@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.hero {
+    background: url('maxresdefault.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.hero p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.hero .button {
+    background-color: #f04a5b;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.services {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.services .container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.services .service-box {
+    background-color: #f4f4f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.services .service-box h3 {
+    color: #333;
+}
+
+.services .service-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services .service-box ul li {
+    margin: 10px 0;
+}
+
+.testimonials {
+    padding: 50px 0;
+    background-color: #f4f4f9;
+}
+
+.testimonials .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.testimonials h2 {
+    margin-bottom: 20px;
+}
+
+.testimonials blockquote {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 5px solid #f04a5b;
+}
+
+.testimonials blockquote p {
+    margin: 0;
+}
+
+.testimonials blockquote cite {
+    display: block;
+    margin-top: 10px;
+    color: #777;
+}
+
+.contact {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.contact .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact .button {
+    background-color: #f04a5b;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
